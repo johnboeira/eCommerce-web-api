@@ -13,6 +13,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.WebAPI", "eCommerce.web.api\eCommerce.WebAPI.csproj", "{585B33F6-1FD7-4CC3-A429-F58C3F716005}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{B079AFAB-BFC5-469F-8CCA-1C2068FA1815}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{4BB8046C-4E98-4676-9A55-E4F299D0D3DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{1277F054-7D11-4952-9B89-EC76B2899F1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{976560D9-2B48-44DC-B7DF-5101BAD278F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A12239AD-8B8F-4C6B-AAA5-E8C3F36633F8}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +99,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{585B33F6-1FD7-4CC3-A429-F58C3F716005} = {B079AFAB-BFC5-469F-8CCA-1C2068FA1815}
+		{C8BDF52E-152F-4F71-A16E-E84C6AE2A8E6} = {4BB8046C-4E98-4676-9A55-E4F299D0D3DB}
+		{440B1DD4-F377-421E-937C-EB3B273A1FAB} = {1277F054-7D11-4952-9B89-EC76B2899F1F}
+		{24AAA97C-3C36-47ED-AC58-699F790DE982} = {B079AFAB-BFC5-469F-8CCA-1C2068FA1815}
+		{269FB571-74D7-4322-8EB4-983AE5197C37} = {976560D9-2B48-44DC-B7DF-5101BAD278F4}
 	EndGlobalSection
 EndGlobal
